@@ -11,7 +11,9 @@ require '../vendor/autoload.php';
 require '../src/config/db.php'; // importamos nuestro gestor de bd para usarlo
 
 $app = new \Slim\app;
-
+?>
+<h1>POTRONOMETRO</h1>
+<?php
 // crear las rutas de las tablas
 require '../src/rutas/eventos.php';
 require '../src/rutas/usuarios.php';
